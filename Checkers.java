@@ -47,7 +47,7 @@ public class Main extends Application {
                 if (rectangle.getFill().equals(Color.BLACK)) {
                     Circle piece;
                     if (r <= 2) {
-                        piece = new Circle(40, Color.CORNSILK);
+                        piece = new Circle(40, Color.YELLOW);
                         GridPane.setHalignment(piece, HPos.CENTER);
                     } else if (r >= 5) {
                         piece = new Circle(40, Color.SADDLEBROWN);
